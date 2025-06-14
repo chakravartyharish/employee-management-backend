@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Service
 public class StripeService {
 
-    @Value("${stripe.api.key}")
+    @Value("${app.stripe.api.key}")
     private String stripeApiKey;
 
     @PostConstruct
